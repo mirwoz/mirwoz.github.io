@@ -1,0 +1,80 @@
+.card {
+    width: 18rem;
+    border-color: white;
+    border-bottom-color: gray;
+    float: left;
+    margin: 15px
+}
+
+.avatar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .links {
+    width: 200px;
+    margin: 0;
+    position: relative;
+    left:36%
+} */
+
+.profileContainer.container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.lead {
+    text-align: center;
+    margin-bottom: 10px
+}
+.project-title {
+   
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px
+}
+
+.card-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px
+}
+
+.tech {
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: gray
+}
+
+#button-row {
+    position: relative;
+   width: 100%
+}
+
+.project-link {
+    
+   background-color: lightseagreen;
+   
+  
+    
+}
+
+#button-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-img-top {
+    border-bottom-color: gray;
+    height: 200px;
+    width: 250px;
+}
+
+.card-body {
+    border-color: black;
+}
+
+
