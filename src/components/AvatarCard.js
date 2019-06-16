@@ -1,14 +1,14 @@
-import classNames from "classnames";
+
 import React from "react";
 import { Jumbotron, Button, Navbar } from "reactstrap";
 import Image from "react-bootstrap/Image";
 import { Container, Row, Col } from "react-bootstrap";
 import portfolio from "../assets/portfolio4.JPG";
 import github from "../assets/github.png";
-import NavLink from "react-bootstrap/NavLink";
+
 import linkedin from "../assets/linkedin.jpg";
 import '../css/App.css';
-import ReactHover from "react-hover"
+
 
 class AvatarCard extends React.Component {
 

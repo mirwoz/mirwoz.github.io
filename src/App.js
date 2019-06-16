@@ -25,7 +25,7 @@ import Firebase from "../src/assets/firebase.png";
 import AWS from "../src/assets/AWS.png";
 import ReactPic from "../src/assets/React.png";
 import Auth from "../src/assets/Auth.png";
-import Bootstrap from "../src/assets/bootstrap.png"
+import Bootstrap from "../src/assets/bootstrap.png";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${
   pdfjs.version
@@ -49,6 +49,12 @@ class App extends Component {
   }
 
   render() {
+    <Route
+      exact
+      path={`/`}
+     />
+      
+    
     const externalCloseBtn = (
       <button
         className="close"
@@ -91,7 +97,7 @@ class App extends Component {
             <img className="tech-pic" src={Node} />
             <img className="tech-pic" src={Heroku} />
             <img className="tech-pic" src={AWS} />
-             <img className="tech-pic" src={Bootstrap} />
+            <img className="tech-pic" src={Bootstrap} />
           </ProjectJumbo>
 
           <ProjectJumbo
