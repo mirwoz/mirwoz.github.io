@@ -49,12 +49,7 @@ class App extends Component {
   }
 
   render() {
-    <Route
-      exact
-      path={`/`}
-     />
-      
-    
+   
     const externalCloseBtn = (
       <button
         className="close"
